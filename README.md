@@ -1,10 +1,14 @@
 # Infrastructure Assignment
 
-big_files.py: 
+#### big_files.py: 
 
-gets all the files from the current directory and displays top 'k' files.
+Gets all the files from the current directory and displays top 'k' files.
 
-desktop_sort.py: 
+#### desktop_sort.py: 
 
-gets all files from desktop, sorts them according to their type (say pdf,mp3,...) into folders and puts these in into Documents folder.
+Gets all files from desktop, sorts them according to their type (say pdf,mp3,...) into folders and puts these in into Documents folder.
 
+#### bonus.py:
+
+1. We can analyze the size of given folders.
+2. In each of the given folders, space occupied by different types of files is displayed.
