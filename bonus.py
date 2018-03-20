@@ -47,7 +47,7 @@ def get_typewise_sizes(list_of_directories):
 		for typ in folder:
 			folder[typ] = humanize.naturalsize(folder[typ])
 	
-list_of_directories = ['/home/abhishek/Desktop']
+list_of_directories = ['/home/vubuntu/Desktop']
 get_folderwise_sizes(list_of_directories)
 get_typewise_sizes(list_of_directories)
 count = 0
@@ -65,3 +65,4 @@ for folder in out:
         l = maximum - len(typ)
         print ' |  ' + typ + ' '*l + '|' + '  ' + str(folder[typ])
     print '-'*len(length)
+    count+=1
