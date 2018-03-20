@@ -47,7 +47,7 @@ def get_typewise_sizes(list_of_directories):
 		for typ in folder:
 			folder[typ] = humanize.naturalsize(folder[typ])
 	
-list_of_directories = ['/home/vubuntu/Desktop']
+list_of_directories = ['/home/vubuntu/Desktop', '/home/vubuntu/Documents']
 get_folderwise_sizes(list_of_directories)
 get_typewise_sizes(list_of_directories)
 count = 0
